@@ -1,0 +1,151 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    height: 60px;
+    width: 100%;
+    background-color: #333A56;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0px 6 0px 0px 100px;
+    font-size: 20px;
+}
+
+.nav a
+{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+button
+{
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+   left: 15%;
+}
+
+input
+{
+    width: 8%;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    left: 16%;
+}
+
+.box1
+{
+    height: 100vh;
+    width: 71%;
+    background-color: #d9d9d9;
+    float: left;
+    position: absolute;
+    top: 11%;
+}
+
+.box1 h1 
+{
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+
+.box1 p
+{
+    position: absolute;
+    left: 5%;
+    top: 8%;
+
+}
+
+.box1 img
+{
+    height: 300px;
+    width: 30%;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.box2
+{
+    height: 500px;
+    width: 60%;
+    position: absolute;
+    left: 37.5%;
+    top: 8%;
+    font-size: 20px;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+}
+
+.box3
+{
+    height: 200px;
+    width: 90%;
+    position: absolute;
+    left: 1%;
+    top: 66%;
+    font-size: 20px;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+}
+
+.readNext
+{
+    height: 100vh;
+    width: 28%;
+    background-color: #333A56;
+    float: left;
+    position: absolute;
+    right: 0%;
+    top: 11%;
+}
+
+.readNext h2
+{
+    position: absolute;
+    left: 6%;
+    top: 4%;
+    color: white;
+    text-decoration-line: underline ;
+}
+
+.readNext ul
+{
+    height: 90vh;
+    width: 90%;
+    position: absolute;
+    left: 8%;
+    top: 11%;
+    color: white;
+}
+
+.footer
+{
+    height: 80px;
+    width: 100%;
+    background-color: #333A56;
+    position: absolute;
+    top: 112%;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
